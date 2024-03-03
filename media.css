@@ -1,0 +1,147 @@
+@media screen and (max-width:750px) {
+    .supheader {
+        display: none;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .navbar {
+        height: 65px;
+    }
+
+    .nav__collect {
+        padding: 23px;
+    }
+
+    .img {
+        width: 100px;
+    }
+
+    .item {
+        display: none;
+    }
+
+    .nav__menu {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-left: 80px;
+
+    }
+
+    .nav__menu span {
+        display: flex;
+        display: block;
+        background: #ccc;
+    }
+
+    .nav__menu span:hover {
+        color: blue;
+    }
+
+    .fa-eye {
+        color: #ccc;
+    }
+
+    .text {
+        font-size: 25px;
+    }
+
+    .banner {
+        flex-wrap: wrap;
+        padding: 15%;
+    }
+
+    .news {
+        height: 600px;
+    }
+
+    .news img {
+        height: 55%;
+    }
+
+    .btn {
+        width: 200px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:340px) {
+
+    .navbar {
+        width: 550px;
+    }
+
+    .photo .main_img {
+        width: 550px;
+        height: 280px;
+    }
+
+    .banner {
+        width: 500px;
+        padding: 0;
+        margin-left: 30px;
+    }
+
+    .news {
+        width: 100%;
+    }
+
+    .nav__menu {
+        margin-left: 15px;
+    }
+
+    .solid {
+        margin-left: 20px;
+    }
+
+    .text {
+        width: 100%;
+        margin-top: 40px;
+        font-size: 18px;
+        margin-left: 150px;
+    }
+
+    .btn {
+        margin-top: 50px;
+        margin-left: 200px;
+    }
+
+    .video {
+        width: 550px;
+    }
+
+    .photos {
+        flex-wrap: wrap;
+        padding-left: 80px;
+    }
+
+    .rasm {
+        width: 550px;
+        height: 250px;
+    }
+
+    .tarix {
+        width: 550px;
+        display: block;
+
+    }
+
+
+    .tarix__image img {
+        width: 500px;
+    }
+
+    .footer {
+        width: 550px;
+        height: 70%;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+   
+    
+}

@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.supheader {
+    width: 100%;
+    height: 70px;
+    border: none;
+    border: 1px solid #ccc;
+    color: gray;
+    display: flex;
+}
+
+.collect {
+    width: 100%;
+    color: gray;
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    list-style: none;
+    padding: 22px 5%;
+}
+
+.icon {
+    margin-top: 7px;
+    margin-right: 20%;
+    height: 50px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    display: flex;
+    padding: 13px;
+    font-size: 20px;
+    gap: 10px;
+
+}
+
+.navbar {
+ 
+    height: 80px;
+    border: none;
+    border: 1px solid #ccc;
+    padding: 10px 5%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+.img {
+    width: 150px;
+}
+
+.nav__collect {
+    margin-left: 40px;
+    width: auto;
+    gap: 20px;
+    list-style: none;
+    padding: 20px 0 0 0;
+    display: flex;
+    margin-right: 200px;
+    color: black;
+    font-size: 15px;
+}
+
+.item:hover {
+    color: blue;
+}
+
+.solid {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 14px;
+}
+
+.fa-eye {
+    font-size: 20px;
+}
+
+.fa-eye:hover {
+    color: blue;
+}
+
+.nav__menu span {
+    display: flex;
+    width: 30px;
+    height: 5px;
+    background: black;
+    margin-top: 3px;
+    border-radius: 10px;
+    display: none;
+}
+
+.photo .main_img {
+    width: 100%;
+    height: 700px;
+}
+
+
+.banner {
+    padding: 50px 8%;
+    display: flex;
+    gap: 50px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 25px;
+}
+
+.news {
+    margin-top: 50px;
+    width: 550px;
+    height: 730px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.news img:hover {
+    transform: scale(1.2);
+    overflow: hidden;
+}
+
+.news img {
+    width: 100%;
+    object-fit: cover;
+    height: 350px;
+    overflow: hidden;
+}
+
+.yozuv {
+    padding: 10px;
+    font-size: 20px;
+    color: gray;
+}
+
+.folder {
+    margin-left: 10px;
+    color: dodgerblue;
+}
+
+.fa-folder {
+    color: gray;
+    margin-left: 30px;
+}
+
+.news_p {
+    margin-top: 20px;
+}
+
+.font {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.btn {
+    width: 250px;
+    height: 50px;
+    background: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 40%;
+}
+
+.btn:hover {
+    background: #ccc;
+}
+
+.video {
+    margin-top: 50px;
+    width: 100%;
+}
+.video:hover{
+    transform: scale(1.015);
+}
+.photos{
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    gap: 30px;
+}
+.rasm {
+    width: 33.3%;
+    height: 270px;
+    border-radius: 20px;
+}
+.rasm:hover{
+    transform: scale(1.015);
+}
+
+.banner {
+    display: flex;
+    padding: 30px 10%;
+    gap: 40px;
+}
+
+.tarix{
+    display: flex;
+    padding: 30px 10%;
+    gap: 40px;
+}
+
+.tarix__text,
+.tarix__image {
+    width: 100%;
+}
+.tarix__text{
+    padding: 10% 0 0 0;
+    font-size: 12px;
+}
+.tarix_image img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background: black;
+    color: white ;
+    padding: 60px;
+    display: flex;
+    gap: 200px;
+}
+.logo{
+    margin-top: 30px;
+    width: 250px;
+}
